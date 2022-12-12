@@ -36,7 +36,7 @@ export function LandingPage() {
         setUserAnswer('')
         setRevealAnswer(true)
         setTimeout(function() {
-            setRandNumber(Math.floor(Math.random() * 803))
+            setRandNumber(Math.floor(Math.random() * 803) + 1)
           }, 600);
         
     }
